@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Setting</title>
+</head>
+<body>
+    <header>
+        <div id="nav_phone" class="nav_phone">
+            <div class="logo_phone">
+                <img src="images/Logo.png" alt="BankDash.">
+            </div>
+            <div class="sidebar_phone">
+                <a href="#"><img src="images/home%202.svg" alt="">Dashboard</a>
+                <a href="#"><img src="images/transfer%201.svg" alt="">Transactions</a>
+                <a href="#"><img src="images/user%203%201.svg" alt="">Accounts</a>
+                <a href="#"><img src="images/economic-investment%201.svg" alt="">Investments</a>
+                <a href="#"><img src="images/credit-card%201.svg" alt="">Credit Cards</a>
+                <a href="#"><img src="images/loan%201.svg" alt="">Loans</a>
+                <a href="#"><img src="images/service%201.svg" alt="">Services</a>
+                <a href="#"><img src="images/econometrics%201.svg" alt="">My Privileges</a>
+                <a href="#"><img src="images/settings%20solid%201.svg" alt="">Setting</a>
+                <a href="#" id="exit_button" class="exit_button">X</a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="images/Logo.png" alt="BankDash.">
+        </div>
+        <div class="header_right">
+            <div class="header_phone">
+                <a href="#" id="burger_button">
+                    <div class="burger_stick1"></div>
+                    <div class="burger_stick2"></div>
+                    <div class="burger_stick3"></div>
+                </a>
+                <p>Setting</p>
+                <div class="avatar_phone">
+                    <img src="images/Mask%20Group.jpg" alt="">
+                </div>
+            </div>
+            <div class="page_name">
+                <p>Setting</p>
+            </div>
+            <div class="lc_setting">
+                <div class="search">
+                    <img src="images/magnifying-glass%201.svg" alt="">
+                    <input placeholder="Search for something" type="text">
+                </div>
+                <div class="setting_logo">
+                    <img src="images/settings%201.svg" alt="">
+                </div>
+                <div class="notification_logo">
+                    <img src="images/002-notification-1.svg" alt="">
+                </div>
+                <div class="avatar">
+                    <img src="images/Mask%20Group.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="sidenav">
+            <a href="#"><img src="images/home%202.svg" alt="">Dashboard</a>
+            <a href="#"><img src="images/transfer%201.svg" alt="">Transactions</a>
+            <a href="#"><img src="images/user%203%201.svg" alt="">Accounts</a>
+            <a href="#"><img src="images/economic-investment%201.svg" alt="">Investments</a>
+            <a href="#"><img src="images/credit-card%201.svg" alt="">Credit Cards</a>
+            <a href="#"><img src="images/loan%201.svg" alt="">Loans</a>
+            <a href="#"><img src="images/service%201.svg" alt="">Services</a>
+            <a href="#"><img src="images/econometrics%201.svg" alt="">My Privileges</a>
+            <a href="#" class="sidenav_active"><img src="images/settings%20solid%201.svg" alt="">Setting</a>
+        </div>
+        <div class="main_form">
+            <div class="menu">
+                <a href="#" class="active">Edit Profile</a>
+                <a href="#">Preferences</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="setting_form">
+                <div class="form_avatar">
+                    <img src="images/form_avatar.png" alt="">
+                    <button><img src="images/edit_logo.svg" alt=""></button>
+                </div>
+                <form class="form" id="setting_form">
+                    <div class="form_container">
+                        <div class="left_form">
+                            <label>
+                                Your Name
+                                <input placeholder="Charlene Reed " type="text" required>
+                            </label>
+                            <label>
+                                Email
+                                <input placeholder="charlenereed@gmail.com " type="email"  required>
+                            </label>
+                            <label>
+                                Date of Birth
+                                <input placeholder="25 January 1990" type="text"  required>
+                            </label>
+                            <label>
+                                Permanent Address
+                                <input placeholder="San Jose, California, USA" type="text"  required>
+                            </label>
+                            <label>
+                                Postal Code
+                                <input minlength="5" placeholder="45962" type="text"  required>
+                            </label>
+                        </div>
+                        <div class="right_form">
+                            <label>
+                                User Name
+                                <input placeholder="Charlene Reed " type="text"  required>
+                            </label>
+                            <label>
+                                Password
+                                <input placeholder="**********" type="password"  required>
+                            </label>
+                            <label>
+                                Present Address
+                                <input placeholder="San Jose, California, USA" type="text"  required>
+                            </label>
+                            <label>
+                                City
+                                <input placeholder="San Jose" type="text"  required>
+                            </label>
+                            <label>
+                                Country
+                                <input placeholder="USA" type="text"  required>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="send_button" id="send">Save</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="js/burger.js"></script>
+</body>
+</html>
